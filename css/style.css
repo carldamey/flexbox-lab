@@ -5,7 +5,57 @@
   body {
     margin: 0;
     font-family: Helvetica;
-    display: flex;
-    flex-direction: column;
-    
+    background-color: navy;
   }
+
+#scammer-ad {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 50vmin;
+  width: 30vmin;
+  margin: 10% auto;
+}
+
+#status {
+  text-align: end;
+  margin: 1vmin;
+  color: gray;
+}
+
+#pfp-div {
+  border: 8vmin solid greenyellow;
+  border-radius: 50%;
+  margin: 0 50% 10% 23%;
+}
+
+#review-div {
+  background-color: lightgray;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%
+}
+
+#scam-div {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#contact-div {
+  display: flex;
+  flex-direction: row;
+}
+
+#call-div {
+  background-color: yellowgreen;
+  width: 50%;
+  height: 20%;
+  border: 6.2vmin solid yellowgreen;
+}
+
+#text-div {
+  background-color: green;
+  width: 50%;
+  height: 20%;
+  border: 6.2vmin solid green;
+}
